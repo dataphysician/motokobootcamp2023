@@ -20,7 +20,7 @@ actor {
     // 4. Write two functions set_counter & get_counter .
     // set_counter sets the value of counter to n.
     // get_counter returns the current value of counter.
-    var counter : Nat == 0;
+    var counter : Nat = 0;
     public func set_counter(n : Nat) : async () {
         counter := n;
         return counter;
