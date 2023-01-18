@@ -4,7 +4,7 @@
 
 ### **Question 1: How much is the current memory capacity of a canister?**
 
-### **Answer:** 48Gib
+### **Answer:** 48Gb
 
 <br>
 
