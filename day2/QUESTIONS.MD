@@ -41,7 +41,7 @@ actor {
  
 }
 
-**Answer:**
+**Answer: The Nat module is not imported - import Nat "mo:base/Nat";**
 
 
 ### Question 5: What is wrong with the following code?
@@ -54,7 +54,7 @@ actor {
  
 }
 
-**Answer:  The Nat module is not imported - import Nat "mo:base/Nat";**
+**Answer: Public function cannot return mutable variables, needs to freeze array first.**
 
 
 ### What is wrong with the following code?
@@ -68,4 +68,4 @@ actor {
  
 }
 
-**Answer:**
+**Answer: **
