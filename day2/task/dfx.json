@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "mbc_backend": {
+      "main": "src/mbc_backend/main.mo",
+      "type": "motoko"
+    },
+    "mbc_frontend": {
+      "dependencies": [
+        "mbc_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/mbc_frontend/src/index.html"
+      },
+      "source": [
+        "src/test_frontend/assets",
+        "dist/test_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "version": 1
+}
