@@ -40,7 +40,11 @@ actor {
   };
  
 }
-What is wrong with the following code?
+
+**Answer:**
+
+
+### What is wrong with the following code?
 actor {
   var languages : [var Text] = ["English", "German", "Chinese", "Japanese", "French"];
 
@@ -49,7 +53,11 @@ actor {
   };
  
 }
-What is wrong with the following code?
+
+**Answer:**
+
+
+### What is wrong with the following code?
 actor {
   var languages : [Text] = ["English", "German", "Chinese", "Japanese", "French"];
 
@@ -59,3 +67,5 @@ actor {
   };
  
 }
+
+**Answer:**
