@@ -44,7 +44,7 @@ actor {
 **Answer:**
 
 
-### What is wrong with the following code?
+### Question 5: What is wrong with the following code?
 actor {
   var languages : [var Text] = ["English", "German", "Chinese", "Japanese", "French"];
 
@@ -54,7 +54,7 @@ actor {
  
 }
 
-**Answer:**
+**Answer:  The Nat module is not imported - import Nat "mo:base/Nat";**
 
 
 ### What is wrong with the following code?
